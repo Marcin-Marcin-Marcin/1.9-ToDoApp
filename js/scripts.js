@@ -10,7 +10,7 @@ if (inputValue === '') {
   alert("You have to write something!");
   } else {
     $('#list').append(li);
-    }
+}
 
 // 2.Cross out an item
 
@@ -20,7 +20,7 @@ function crossOut() {
 
     li.on("dblclick", function crossOut() {
         li.toggleClass("strike");
-    });
+});
 
 // 3.Add delete button
 
